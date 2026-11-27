@@ -584,7 +584,7 @@
                   <div class="flex items-center justify-end">
                     <button type="button" id="openForgotPassModalBtn" class="text-xs font-semibold text-gold-dark hover:underline flex items-center gap-1">
                       <i data-lucide="key-round" class="w-3.5 h-3.5"></i>
-                      <span>Quên mật khẩu? Gửi link đổi mật khẩu về Email</span>
+                      <span>Quên mật khẩu?</span>
                     </button>
                   </div>
                   <button type="submit" class="w-full py-3 rounded-xl bg-obsidian text-ivory text-xs font-semibold hover:bg-stone-800 transition">
@@ -2543,7 +2543,7 @@
           logoImg: DEFAULT_LOGO,
           heroBannerImg: DEFAULT_HERO,
           prBannerImg: IMG_SERUM,
-          topPromoText: 'MIỄN PHÍ VẬN CHUYỂN TOÀN QUỐC CHO ĐƠN HÀNG TỪ 1.000.000Đ — NHẬP MÃ LUNAVEA15 GIẢM 15%',
+          topPromoText: 'MIỄN PHÍ VẬN CHUYỂN TOÀN QUỐC CHO ĐƠN HÀNG TỪ 1.000.000Đ',
             heroBadge: 'LUXURY BEAUTY',
             heroTitle: 'Đánh Thức Vẻ Đẹp Thuần Khiết & Sang Trọng',
             heroSubtitle: 'Chắt lọc tinh túy từ chiết xuất hoa phong lan trắng, vàng 24K và thảo mộc quý hiếm giúp nuôi dưỡng làn da căng bóng, rạng ngời vượt thời gian.',
@@ -2624,79 +2624,6 @@
           { id: 'cat-makeup', name: 'Trang điểm cao cấp', desc: 'Son môi nhung lì và phấn nước Cushion kiềm dầu mỏng nhẹ.' },
           { id: 'cat-perfume', name: 'Nước hoa Pháp', desc: 'Hương thơm độc bản lưu hương 12 giờ đầy quyến rũ.' },
           { id: 'cat-giftset', name: 'Bộ quà tặng Hoàng Gia', desc: 'Hộp quà lụa vàng sang trọng dành tặng người trân quý.' }
-        ],
-
-        // Products
-        products: [
-          {
-            id: 'prod-1',
-            name: 'Tinh Chất Vàng 24K & Phong Lan LumiGold Elixir',
-            category: 'Dưỡng da chuyên sâu',
-            volume: '30ml',
-            price: 1450000,
-            originalPrice: 1850000,
-            badge: 'Bán chạy',
-            stock: 25,
-            image: IMG_SERUM,
-            desc: 'Tinh chất cô đặc kết hợp lá vàng 24K nguyên chất và chiết xuất hoa phong lan trắng giúp phục hồi độ đàn hồi, làm mờ nếp nhăn và cấp ẩm căng bóng suốt 24 giờ.'
-          },
-          {
-            id: 'prod-2',
-            name: 'Son Nhung Lì Cao Cấp Lunavéa Velvet Rouge #01 Rosewood',
-            category: 'Trang điểm cao cấp',
-            volume: '3.8g',
-            price: 680000,
-            originalPrice: 820000,
-            badge: 'Bán chạy',
-            stock: 40,
-            image: IMG_LIPSTICK,
-            desc: 'Chất son nhung lì mịn như lụa, giàu dưỡng chất từ tinh dầu hoa trà đỏ giúp đôi môi lên màu chuẩn sắc hồng đất sang trọng mà không gây khô môi.'
-          },
-          {
-            id: 'prod-3',
-            name: 'Kem Dưỡng Phục Hồi Đêm Pearl Silk Crème',
-            category: 'Dưỡng da chuyên sâu',
-            volume: '50ml',
-            price: 1620000,
-            originalPrice: 1950000,
-            badge: 'Ưu đãi đặc biệt',
-            image: IMG_CREAM,
-            desc: 'Kem dưỡng khóa ẩm ban đêm chứa phức hợp Peptide, Ceramide và bột ngọc trai thiên nhiên giúp tái sinh làn da mệt mỏi, dưỡng trắng hồng rạng rỡ.'
-          },
-          {
-            id: 'prod-4',
-            name: 'Nước Hoa Lunavéa L’Or De La Nuit Eau De Parfum',
-            category: 'Nước hoa Pháp',
-            volume: '50ml',
-            price: 2390000,
-            originalPrice: 2800000,
-            badge: 'Limited Edition',
-            stock: 15,
-            image: IMG_PERFUME,
-            desc: 'Sự hòa quyện mê hoặc giữa hương hoa nhài đêm, cam Bergamot, hổ phách ấm áp và gỗ đàn hương quý phái. Độ lưu hương vượt trội từ 10 đến 12 giờ.'
-          },
-          {
-            id: 'prod-5',
-            name: 'Phấn Nước Ngọc Trai Radiant Glow Cushion SPF50+',
-            category: 'Trang điểm cao cấp',
-            volume: '15g x 2 lõi',
-            price: 950000,
-            originalPrice: 1150000,
-            badge: 'Mới ra mắt',
-            image: IMG_CUSHION,
-            desc: 'Lớp nền mỏng nhẹ tựa sương mai với khả năng che phủ khuyết điểm hoàn hảo, chống nắng bảo vệ da SPF50+ PA++++ và duy trì độ ẩm mượt suốt ngày dài.'
-          },
-          {
-            id: 'prod-6',
-            name: 'Dầu Tẩy Trang Thảo Mộc Hoàng Kim Botanical Cleansing Oil',
-            category: 'Dưỡng da chuyên sâu',
-            volume: '150ml',
-            price: 790000,
-            originalPrice: 950000,
-            badge: 'Ưu đãi đặc biệt',
-            image: IMG_OIL,
-            desc: 'Công thức nhũ hóa tức thì từ 7 loại dầu thực vật hữu cơ (Jojoba, Hạt nho, Hoa cúc La Mã) giúp cuốn trôi lớp trang điểm chống nước mà vẫn dịu nhẹ cho da nhạy cảm.'
-          }
         ],
 
         // Wishlist & Cart (Empty by default for new website visitors)
